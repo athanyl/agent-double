@@ -1,0 +1,59 @@
+html { 
+  margin:0;
+  padding:0;
+  background: url(../img/1104720.jpg) no-repeat center fixed ;
+  background-size: cover; 
+}
+footer {
+	  position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: right;
+}
+
+.ulfooter {
+	list-style-type: none;
+	margin: 0;
+  padding: 0;
+}
+.lifooter {
+	display: block;
+	display: inline;
+	margin:10px;
+  cursor:pointer;
+}
+
+.hidden {
+  opacity:0;
+}
+
+
+.console-container {
+
+  font-family:'Inconsolata', monospace;
+  font-size:4em;
+  text-align:center;
+  height:40%;
+  width:60%;
+  display:block;
+  position:absolute;
+  color:white;
+  bottom:0;
+  left:0;
+  right:0;
+  margin:auto;
+}
+.console-underscore {
+   display:inline-block;
+  position:relative;
+  top:-0.14em;
+  left:10px;
+}
+
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+/* Photo by Florian Gagnepain & Danny Wage on Unsplash */
